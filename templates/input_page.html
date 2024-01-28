@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Predictive Stock Market Model</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <header>
+
+        <div class="centered-container">
+        <h1>Predictive Stock Market Model</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Model</a></li>
+
+
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>This is the first predictive stock market AI bot</h2>
+            <h3>
+                 <form method="post">
+                        <label for="userInput">Enter a ticker:</label>
+                        <input type="text" id="userInput" name="user_input" required>
+                                      <button type="submit">Submit</button>
+                               </form>
+            </h3>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

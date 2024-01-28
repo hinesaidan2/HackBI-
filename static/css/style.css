@@ -1,0 +1,127 @@
+
+/* General body styles */
+body {
+    margin: 0;
+    font-family: 'Monaco', monospace; /* More modern and widely supported font */
+    background-image: linear-gradient(to right, rgb(21, 14, 90), rgb(0, 203, 169)); /* Light grey background for better readability */
+}
+
+
+
+
+/* Header styles */
+header {
+
+
+    height: 145px;
+    background-image: url('stock-ezgif.com-webp-to-jpg-converter.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #f0f0f0; /* White text color for contrast */
+
+    text-shadow: 0 0 20px #00e6e2, 0 0 30px #00e6e2, 0 0 40px #00e6e2, 0 0 50px #00e6e2, 0 0 60px #00e6e2;
+
+}
+
+h1:hover {
+    animation: text-glow 1s infinite alternate;
+}
+
+/*@keyframes text-glow {
+    from {
+        text-shadow: 0 0 5px #333, 0 0 10px #333, 0 0 15px #333;
+    }
+    to {
+        text-shadow: 0 0 10px #333, 0 0 20px #333, 0 0 30px #333;
+    }
+}
+
+
+
+
+/* Header title styles */
+header h1 {
+    margin: 0; /* Removes default margin */
+  /*transition: color 0.3s ease; /* Smooth color transition on hover */
+    text-align: center;
+}
+
+
+
+/* Navigation menu styles */
+nav ul {
+    padding: 0; /* Removes default padding */
+    list-style-type: none; /* Removes default list styling */
+    text-align: center;
+}
+
+/* Navigation item styles */
+nav ul li {
+    display: inline; /* Displays navigation items inline */
+    margin: 0 20px; /* Horizontal margin for spacing between items */
+    transition: transform 0.3s ease; /* Smooth scaling transition on hover */
+}
+
+/* Navigation item hover effect */
+nav ul li:hover {
+    transform: scale(1.1); /* Scales up navigation items slightly on hover */
+}
+
+/* Navigation link styles */
+nav ul li a {
+    color: #fff; /* White text color for links */
+    text-decoration: none; /* Removes underline from links */
+    font-weight: bold; /* Makes navigation links bold */
+}
+
+nav:hover {
+    animation: text-glow 1s infinite alternate;
+}
+
+@keyframes text-glow {
+    from {
+        text-shadow: 0 0 5px #333, 0 0 10px #333, 0 0 15px #333;
+    }
+    to {
+        text-shadow: 0 0 10px #333, 0 0 20px #333, 0 0 30px #333;
+    }
+}
+
+/* Main content area styles */
+main {
+    padding: 20px; /* Padding around the main content */
+    text-align: center; /* Centers the content */
+}
+
+/* Main heading styles */
+main h2 {
+    color: #fffefe; /* Dark grey color for the heading */
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+/* Paragraph styles within the main content */
+main p {
+    color: rgb(255, 255, 255); /* Medium grey color for paragraph text */
+    max-width: 670px; /* Limits the width of paragraphs for readability */
+    margin: 70px auto; /* Centers paragraphs and adds vertical spacing */
+    line-height: 1.9; /* Increases line height for better readability */
+    font-size: 20px; /* Slightly larger font size for readability */
+    font-style: italic;
+}
+
+/* Button styles for interactive elements */
+button {
+    padding: 10px 20px; /* Padding inside the button */
+    background-color: lightcoral; /* Background color matching the header */
+    color: white; /* White text color for contrast */
+    border: none; /* Removes default border */
+    border-radius: 5px; /* Rounded corners for a modern look */
+    cursor: pointer; /* Changes cursor to indicate clickable */
+    font-size: 16px; /* Font size for button text */
+    transition: background-color 0.3s ease; /* Smooth background color transition on hover */
+}
+
+ Button hover effect
+button:hover {
+    background-color: #f08080; /* Lightens the button's background color on hover */
+}
